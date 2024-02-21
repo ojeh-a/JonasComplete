@@ -11,10 +11,14 @@ if (scoreDolphins > scoreKoalas) {
 } else {
   console.log("Both team wins");
 }
-const bill = 430;
+const bill = 1400;
 
-let tip;
-bill > 50 && bill <= 300 ? (tip = bill * 0.12) : (tip = bill * 0.2);
+// let tip;
+// bill >= 50 && bill <= 300 ? (tip = bill * 0.15) : (tip = bill * 0.2);
+// console.log(
+//   `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+// );
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 console.log(
   `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
 );
