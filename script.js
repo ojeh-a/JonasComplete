@@ -36,3 +36,11 @@ function calAge(birthyear) {
 }
 const hello = calAge(1987);
 console.log(hello);
+const yearsUntilRetirement = (birthyear) => {
+  const age = 2024 - birthyear;
+  const retirement = 65 - age;
+  return retirement;
+};
+
+const yearsleft = yearsUntilRetirement(1987);
+console.log(yearsleft);
