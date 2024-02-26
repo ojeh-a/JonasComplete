@@ -56,33 +56,36 @@ function makeJuice(apple, orange) {
   return `make juice with ${applePieces} apple and ${orangePieces} orange`;
 }
 console.log(makeJuice(20, 10));
-/* Write your code below. Good luck! 🙂 */
-// const calcAverage = (a, b, c) => (a + b + c) / 3;
-// let scoreDolphins = calcAverage(40, 57, 56);
-// let scoreKoalas = calcAverage(40, 57, 56);
 
-// const checkWinner = (avgDolphins, avgKoalas) => {
-//   if (avgDolphins >= avgKoalas * 2) {
-//     console.log("heollllll");
-//   } else if (avgKoalas >= avgDolphins * 2) {
-//     console.log("hsudjhj");
-//   }
-// };
 const calcAverage = (a, b, c) => (a + b + c) / 3;
-console.log(calcAverage(3, 4, 5));
-
-let scoreDolphins = calcAverage(44, 23, 71);
-let scoreKoalas = calcAverage(65, 54, 49);
-console.log(scoreDolphins, scoreKoalas);
+let scoreDolphins = calcAverage(40, 57, 56);
+let scoreKoalas = calcAverage(40, 57, 776);
 
 const checkWinner = function (avgDolphins, avgKoalas) {
-  if (avgDolphins >= 2 * avgKoalas) {
-    console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas})`);
-  } else if (avgKoalas >= 2 * avgDolphins) {
-    console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins})`);
+  if (avgDolphins >= avgKoalas * 2) {
+    console.log("heollllll");
+  } else if (avgKoalas >= avgDolphins * 2) {
+    console.log("hsudjhj");
   } else {
-    console.log("No team wins...");
+    console.log("yu9388489030");
   }
 };
-
 checkWinner(scoreDolphins, scoreKoalas);
+// const calcAverage = (a, b, c) => (a + b + c) / 3;
+// console.log(calcAverage(3, 4, 5));
+
+// let scoreDolphins = calcAverage(44, 23, 71);
+// let scoreKoalas = calcAverage(65, 54, 49);
+// console.log(scoreDolphins, scoreKoalas);
+
+// const checkWinner = function (avgDolphins, avgKoalas) {
+//   if (avgDolphins >= 2 * avgKoalas) {
+//     console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas})`);
+//   } else if (avgKoalas >= 2 * avgDolphins) {
+//     console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins})`);
+//   } else {
+//     console.log("No team wins...");
+//   }
+// };
+
+// checkWinner(scoreDolphins, scoreKoalas);
