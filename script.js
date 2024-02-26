@@ -45,3 +45,14 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 
 const yearsleft = yearsUntilRetirement(1987, "kazuki");
 console.log(yearsleft);
+
+function cutFruit(fruit) {
+  return fruit * 4;
+}
+
+function makeJuice(apple, orange) {
+  const applePieces = cutFruit(apple);
+  const orangePieces = cutFruit(orange);
+  return `make juice with ${applePieces} apple and ${orangePieces} orange`;
+}
+console.log(makeJuice(20, 10));
