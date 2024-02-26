@@ -56,3 +56,26 @@ function makeJuice(apple, orange) {
   return `make juice with ${applePieces} apple and ${orangePieces} orange`;
 }
 console.log(makeJuice(20, 10));
+/* Write your code below. Good luck! 🙂 */
+
+const calcAverage = (a, b, c) => {
+  const averageScore = (a + b + c) / 3;
+  return averageScore;
+};
+let scoreDolphin = calAverage(44, 23, 71);
+let scoreKoala = calAverage(65, 54, 49);
+console.log(scoreDolphin);
+
+const checkWinner = (scoreDolphin, scoreKoala) => {
+  if (scoreDolphin > scoreKoala && scoreDolphin >= (scoreKoala ^ 2)) {
+    return console.log(`Dolphins win (${scoreDolphin} vs. ${scoreKoala}`);
+  } else if (
+    scoreKoala > scoreDolphin &&
+    scoreKoala >= scoreDolphin * scoreDolphin
+  ) {
+    return console.log(`Koalas win (${scoreKoala} vs. ${scoreDolphin}`);
+  } else {
+    return `no team wins`;
+  }
+};
+checkWinner(scoreDolphin, scoreKoala);
