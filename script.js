@@ -47,7 +47,7 @@ const yearsleft = yearsUntilRetirement(1987, "kazuki");
 console.log(yearsleft);
 
 function cutFruit(fruit) {
-  return fruit * 4;
+  return fruit ^ 3;
 }
 
 function makeJuice(apple, orange) {
