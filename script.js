@@ -63,7 +63,7 @@ let scoreKoalas = calcAverage(40, 57, 776);
 
 const checkWinner = function (avgDolphins, avgKoalas) {
   if (avgDolphins >= avgKoalas * 2) {
-    console.log("heollllll");
+    console.log("heolllllloooo");
   } else if (avgKoalas >= avgDolphins * 2) {
     console.log("hsudjhj");
   } else {
@@ -71,6 +71,10 @@ const checkWinner = function (avgDolphins, avgKoalas) {
   }
 };
 checkWinner(scoreDolphins, scoreKoalas);
+checkWinner(400, 350);
+const temitope = 90000;
+const moji = 545;
+checkWinner(temitope, moji);
 // const calcAverage = (a, b, c) => (a + b + c) / 3;
 // console.log(calcAverage(3, 4, 5));
 
