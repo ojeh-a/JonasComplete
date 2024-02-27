@@ -93,3 +93,8 @@ checkWinner(temitope, moji);
 // };
 
 // checkWinner(scoreDolphins, scoreKoalas);
+function makeSoup(vegetable, pepper) {
+  const soup = vegetable + pepper;
+  return soup;
+}
+console.log(makeSoup(5, 8));
