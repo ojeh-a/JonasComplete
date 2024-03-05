@@ -79,6 +79,7 @@ const coach = {
   lastName: "Agbowuro",
   age: 2024 - 1987,
   church: "JesusLink",
+  friends: ["Afuye", "Salomon", "Tobago"],
 };
 
 console.log(coach.age);
@@ -91,3 +92,6 @@ if (coach[what]) {
 } else {
   console.log("you dey whine? put better value abeg");
 }
+console.log(
+  `Coach has ${coach.friends.length} best friends, but his best friend is ${coach.friends[0]}`
+);
