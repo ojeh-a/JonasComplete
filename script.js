@@ -93,5 +93,5 @@ if (coach[what]) {
   console.log("you dey whine? put better value abeg");
 }
 console.log(
-  `Coach has ${coach.friends.length} best friends, but his best friend is ${coach.friends[0]}`
+  `${coach.firstName} has ${coach.friends.length} best friends, but his best friend is ${coach.friends[0]}`
 );
