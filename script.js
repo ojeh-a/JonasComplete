@@ -74,3 +74,12 @@ function makeSoup(vegetable, pepper) {
   return soup;
 }
 console.log(makeSoup(5, 8));
+const coach = {
+  firstName: "Ayodele",
+  lastName: "Agbowuro",
+  age: 2024 - 1987,
+  church: "JesusLink",
+};
+
+console.log(coach.age);
+console.log(coach);
