@@ -83,3 +83,6 @@ const coach = {
 
 console.log(coach.age);
 console.log(coach);
+console.log(coach["lastName"]);
+const what = prompt("what is your ...... age?, lastName?");
+console.log(coach[what]);
