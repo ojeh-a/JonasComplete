@@ -86,3 +86,8 @@ console.log(coach);
 console.log(coach["lastName"]);
 const what = prompt("what is your ...... age?, lastName?");
 console.log(coach[what]);
+if (coach[what]) {
+  console.log(coach[what]);
+} else {
+  console.log("you dey whine? put better value abeg");
+}
