@@ -126,6 +126,8 @@ const john = {
     return this.bmi;
   },
 };
+john.calcBMI();
+console.log(john.bmi);
 console.log(mark.calcBMI());
 const markBMI = mark.calcBMI();
 const johnBMI = john.calcBMI();
