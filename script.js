@@ -140,8 +140,21 @@ console.log(result);
 console.log(markBMI);
 console.log(johnBMI);
 for (let rep = 1; rep <= 20; rep++) {
-  console.log(`we can do ${rep} pushup`);
+  // console.log(`we can do ${rep} pushup`);
 }
 for (let i = 0; i <= 5; i++) {
-  console.log(`helooo ${i} times`);
+  // console.log(`helooo ${i} times`);
+}
+
+const coachKazuki = [
+  "Ayodele",
+  "Agbowuro",
+  2024 - 1987,
+  "teacher",
+  "JesusLink",
+  ["Afuye", "Salomon", "Tobago"],
+  true,
+];
+for (let i = 0; i < coachKazuki.length; i++) {
+  console.log(coachKazuki[i]);
 }
