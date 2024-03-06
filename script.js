@@ -78,20 +78,32 @@ const coach = {
   firstName: "Ayodele",
   lastName: "Agbowuro",
   age: 2024 - 1987,
+  birthYear: 1987,
+  profession: "teacher",
   church: "JesusLink",
   friends: ["Afuye", "Salomon", "Tobago"],
+  hasLicense: true,
+  calAge: function () {
+    return 2024 - this.birthYear;
+  },
+  getSummary: function () {
+    this.summary = `${this.firstName} is a ${this.age} years old ${
+      this.profession
+    } and he ${this.age >= 18 ? `has` : `has no`} drivers license`;
+    return this.summary;
+  },
 };
+console.log(coach.getSummary());
+console.log(coach.calAge());
+console.log(coach["calAge()"]);
 
-console.log(coach.age);
-console.log(coach);
-console.log(coach["lastName"]);
-const what = prompt("what is your ...... age?, lastName?");
-console.log(coach[what]);
-if (coach[what]) {
-  console.log(coach[what]);
-} else {
-  console.log("you dey whine? put better value abeg");
-}
-console.log(
-  `${coach.firstName} has ${coach.friends.length} best friends, but his best friend is ${coach.friends[0]}`
-);
+// const what = prompt("what is your ...... age?, lastName?");
+// console.log(coach[what]);
+// if (coach[what]) {
+//   console.log(coach[what]);
+// } else {
+//   console.log("you dey whine? put better value abeg");
+// }
+// console.log(
+//   `${coach.firstName} has ${coach.friends.length} best friends, but his best friend is ${coach.friends[0]}`
+// );
