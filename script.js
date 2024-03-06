@@ -78,7 +78,7 @@ const coach = {
   firstName: "Ayodele",
   lastName: "Agbowuro",
   age: 2024 - 1987,
-  birthYear: 1987,
+  birthYear: 2019,
   profession: "teacher",
   church: "JesusLink",
   friends: ["Afuye", "Salomon", "Tobago"],
@@ -87,7 +87,7 @@ const coach = {
     return 2024 - this.birthYear;
   },
   getSummary: function () {
-    this.summary = `${this.firstName} is a ${this.age} years old ${
+    this.summary = `${this.firstName} is a ${this.calAge()} years old ${
       this.profession
     } and he ${this.age >= 18 ? `has` : `has no`} drivers license`;
     return this.summary;
