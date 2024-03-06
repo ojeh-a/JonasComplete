@@ -107,3 +107,23 @@ console.log(coach["calAge()"]);
 // console.log(
 //   `${coach.firstName} has ${coach.friends.length} best friends, but his best friend is ${coach.friends[0]}`
 // );
+const mark = {
+  fullName: "Mark Miller",
+  mass: 78,
+  height: 1.69,
+  calcBMI: function () {
+    this.bmi = (this.mass / this.height) * this.height;
+    return this.bmi;
+  },
+};
+const john = {
+  fullName: "John Smith",
+  mass: 92,
+  height: 1.95,
+
+  calcBMI: function () {
+    this.bmi = (this.mass / this.height) * this.height;
+    return this.bmi;
+  },
+};
+console.log(mark.calcBMI());
