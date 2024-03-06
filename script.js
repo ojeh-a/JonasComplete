@@ -158,3 +158,9 @@ const coachKazuki = [
 for (let i = 0; i < coachKazuki.length; i++) {
   console.log(coachKazuki[i]);
 }
+const years = [1987, 1984, 2004, 2015, 2021];
+const ages = [];
+for (let i = 0; i < years.length; i++) {
+  ages.push(2024 - years[i]);
+}
+console.log(ages);
