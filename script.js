@@ -139,3 +139,9 @@ const result = `${
 console.log(result);
 console.log(markBMI);
 console.log(johnBMI);
+for (let rep = 1; rep <= 20; rep++) {
+  console.log(`we can do ${rep} pushup`);
+}
+for (let i = 0; i <= 5; i++) {
+  console.log(`helooo ${i} times`);
+}
