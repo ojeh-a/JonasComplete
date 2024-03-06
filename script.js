@@ -118,7 +118,7 @@ const mark = {
 };
 const john = {
   fullName: "John Smith",
-  mass: 92,
+  mass: 97,
   height: 1.95,
 
   calcBMI: function () {
@@ -127,3 +127,13 @@ const john = {
   },
 };
 console.log(mark.calcBMI());
+const markBMI = mark.calcBMI();
+const johnBMI = john.calcBMI();
+const result = `${
+  markBMI < johnBMI
+    ? `${john.fullName}'s BMI (${johnBMI} ) is higher than ${mark.fullName}'s (${markBMI})!`
+    : `${mark.fullName}'s BMI (${markBMI}) is higher than ${john.fullName}'s (${johnBMI} )!`
+}`;
+console.log(result);
+console.log(markBMI);
+console.log(johnBMI);
