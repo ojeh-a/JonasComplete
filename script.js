@@ -200,3 +200,13 @@ for (let i = 0; i < bills.length; i++) {
   total.push(tips[i] + bills[i]);
 }
 console.log(tips, bills, total);
+
+const calcAverages = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+  }
+  return sum / arr.length;
+};
+
+console.log(calcAverages([20, 40, 45, 56, 66, 100]));
