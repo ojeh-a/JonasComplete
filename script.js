@@ -187,3 +187,16 @@ while (dice !== 6) {
     console.log(`You rolled a 6.....Loop terminated`);
   }
 }
+const calcTip = function (bill) {
+  return bill <= 50 && bill >= 300 ? bill * 0.15 : bill * 0.2;
+};
+
+const bills = [22, 28, 77, 66, 23, 67, 65, 56, 44];
+const tips = [];
+const total = [];
+for (let i = 0; i < bills.length; i++) {
+  let tip = calcTip(bills[i]);
+  tips.push(tip);
+  total.push(tips[i] + bills[i]);
+}
+console.log(tips, bills, total);
