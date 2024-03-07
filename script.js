@@ -210,3 +210,4 @@ const calcAverages = function (arr) {
 };
 
 console.log(calcAverages([20, 40, 45, 56, 66, 100]));
+console.log(calcAverages(total));
