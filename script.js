@@ -177,3 +177,13 @@ const coachKazuki2 = [
 for (let i = coachKazuki2.length - 1; i >= 0; i--) {
   console.log(i, coachKazuki2[i]);
 }
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+while (dice !== 6) {
+  console.log(`you rolled ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) {
+    console.log(`You rolled a 6.....Loop terminated`);
+  }
+}
