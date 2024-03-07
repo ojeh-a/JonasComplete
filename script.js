@@ -201,26 +201,28 @@
 // }
 // console.log(tips, bills, total);
 
-// const calcAverages = function (arr) {
-//   let sum = 0;
-//   for (let i = 0; i < arr.length; i++) {
-//     sum = sum + arr[i];
-//   }
-//   return sum / arr.length;
-// };
-
-// console.log(calcAverages([20, 40, 45, 56, 66, 100]));
-// console.log(calcAverages(total));
-// console.log(calcAverages(bills));
-
-function getMiddleString(str) {
-  let middle = Math.floor(str.length / 2);
-  return str.length % 2 === 0
-    ? str.slice(middle - 1, middle + 1)
-    : str.charAt(middle);
-}
-console.log(getMiddleString("rice"));
-console.log(getMiddleString("testing"));
-console.log(getMiddleString("middle"));
-console.log(getMiddleString("henry"));
-console.log(getMiddleString("a"));
+// function getMiddleString(str) {
+//   let middle = Math.floor(str.length / 2);
+//   return str.length % 2 === 0
+//     ? str.slice(middle - 1, middle + 1)
+//     : str.charAt(middle);
+// }
+// console.log(getMiddleString("rice"));
+// console.log(getMiddleString("testing"));
+// console.log(getMiddleString("middle"));
+// console.log(getMiddleString("henry"));
+// console.log(getMiddleString("a"));
+// // console.log(getMiddleString(true));
+console.log("hello ");
+const calculateAverage = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+    // sum = sum + arr[i];
+  }
+  return sum / arr.length;
+};
+const numbers = [42, 34, 34, 33, 22, 1];
+console.log(calculateAverage([23, 24, 22]));
+console.log(calculateAverage(numbers));
+console.log(calculateAverage([34, true, "yes"]));
