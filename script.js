@@ -161,6 +161,19 @@ for (let i = 0; i < coachKazuki.length; i++) {
 const years = [1987, 1984, 2004, 2015, 2021];
 const ages = [];
 for (let i = 0; i < years.length; i++) {
-  ages.push(2024 - years[i]);
+  ages.push(2023 - years[i]);
 }
 console.log(ages);
+const coachKazuki2 = [
+  "Ayodele",
+  "Agbowuro",
+  2024 - 1987,
+  "teacher",
+  "JesusLink",
+  ["Afuye", "Salomon", "Tobago"],
+  true,
+];
+
+for (let i = coachKazuki2.length - 1; i >= 0; i--) {
+  console.log(i, coachKazuki2[i]);
+}
