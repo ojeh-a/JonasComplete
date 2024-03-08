@@ -227,3 +227,11 @@ console.log(calculateAverage([23, 24, 22]));
 console.log(calculateAverage(numbers));
 const num = Math.trunc(Math.random() * 40) + 1;
 console.log(num);
+const sumArray = function (arr) {
+  let sum = 0;
+  for (i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum;
+};
+console.log(sumArray([10, 30, 40, 45]));
