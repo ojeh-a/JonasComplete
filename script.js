@@ -225,4 +225,5 @@ const calculateAverage = function (arr) {
 const numbers = [42, 34, 34, 33, 22, 1];
 console.log(calculateAverage([23, 24, 22]));
 console.log(calculateAverage(numbers));
-console.log(calculateAverage([34, true, "yes"]));
+const num = Math.trunc(Math.random() * 40) + 1;
+console.log(num);
