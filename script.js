@@ -236,7 +236,20 @@ const sumArray = function (arr) {
 };
 console.log(sumArray([10, 30, 40, 45]));
 
-const message = document.querySelector(".one");
 const btn1 = document.querySelector(".button-one");
 const btn2 = document.querySelector(".button-two");
 const btn3 = document.querySelector(".button-three");
+
+const textElement = document.querySelector(".one");
+
+btn1.addEventListener("click", function () {
+  textElement.textContent = "Button One Clicked";
+});
+
+btn2.addEventListener("click", function () {
+  textElement.textContent = "Button Two Clicked";
+});
+
+btn3.addEventListener("click", function () {
+  textElement.textContent = "Button Three Clicked";
+});
