@@ -244,12 +244,15 @@ const textElement = document.querySelector(".one");
 
 btn1.addEventListener("click", function () {
   textElement.textContent = "Button One Clicked";
+  textElement.style.backgroundColor = "red";
 });
 
 btn2.addEventListener("click", function () {
   textElement.textContent = "Button Two Clicked";
+  textElement.style.backgroundColor = "green";
 });
 
 btn3.addEventListener("click", function () {
   textElement.textContent = "Button Three Clicked";
+  textElement.style.backgroundColor = "pink";
 });
