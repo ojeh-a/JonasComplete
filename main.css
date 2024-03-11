@@ -10,12 +10,6 @@
   display: flex;
   justify-content: space-between;
 }
-.image--1 {
-  display: none;
-}
-.image--2 {
-  display: none;
-}
-.image--3 {
+.hidden {
   display: none;
 }

@@ -239,24 +239,24 @@ console.log(sumArray([10, 30, 40, 45]));
 const btn1 = document.querySelector(".button-one");
 const btn2 = document.querySelector(".button-two");
 const btn3 = document.querySelector(".button-three");
-const image1 = document.querySelector(".image1");
-const image2 = document.querySelector(".image2");
-const image3 = document.querySelector(".image3");
+const images = document.querySelectorAll(".image--class");
 
 const textElement = document.querySelector(".one");
 
 btn1.addEventListener("click", function () {
   textElement.textContent = "Button One Clicked";
   textElement.style.backgroundColor = "red";
-  image1.classList.add("image--1");
+  images.forEach((img, index) => img.classList.toggle("hidden", index !== 0));
 });
 
 btn2.addEventListener("click", function () {
   textElement.textContent = "Button Two Clicked";
   textElement.style.backgroundColor = "green";
+  images.forEach((img, index) => img.classList.toggle("hidden", index !== 1));
 });
 
 btn3.addEventListener("click", function () {
   textElement.textContent = "Button Three Clicked";
   textElement.style.backgroundColor = "pink";
+  images.forEach((img, index) => img.classList.toggle("hidden", index !== 2));
 });
