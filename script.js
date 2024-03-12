@@ -245,18 +245,18 @@ const textElement = document.querySelector(".one");
 
 btn1.addEventListener("click", function () {
   textElement.textContent = "Button One Clicked";
-  textElement.style.backgroundColor = "red";
+  textElement.style.backgroundColor = "purple";
   images.forEach((img, index) => img.classList.toggle("hidden", index !== 0));
 });
 
 btn2.addEventListener("click", function () {
   textElement.textContent = "Button Two Clicked";
-  textElement.style.backgroundColor = "green";
+  textElement.style.backgroundColor = "yellow";
   images.forEach((img, index) => img.classList.toggle("hidden", index !== 1));
 });
 
 btn3.addEventListener("click", function () {
   textElement.textContent = "Button Three Clicked";
-  textElement.style.backgroundColor = "pink";
+  textElement.style.backgroundColor = "red";
   images.forEach((img, index) => img.classList.toggle("hidden", index !== 2));
 });
