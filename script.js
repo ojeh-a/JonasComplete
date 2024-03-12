@@ -260,3 +260,8 @@ btn3.addEventListener("click", function () {
   textElement.style.backgroundColor = "red";
   images.forEach((img, index) => img.classList.toggle("hidden", index !== 2));
 });
+function gettingAge(birthYear) {
+  const age = 2024 - birthYear;
+  return age;
+}
+console.log(gettingAge(1990));
