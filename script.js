@@ -265,3 +265,10 @@ function gettingAge(birthYear) {
   return age;
 }
 console.log(gettingAge(1990));
+const shop = {
+  name: "Mr seun ",
+  location: " 1 jobate, ori-okuta",
+  categories: ["ball", "provision", "POS"],
+  starterMenu: ["chelsea", "arsenal", "barcelona"],
+  mainMenu: ["London", "Paris", "Madrid"],
+};
