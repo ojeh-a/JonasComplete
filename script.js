@@ -275,3 +275,4 @@ const shop = {
 const arr = [2, 3, 4];
 const [x, y, z] = arr;
 console.log(x, y, z);
+console.log(gettingAge(1798));
