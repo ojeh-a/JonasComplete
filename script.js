@@ -272,7 +272,11 @@ const shop = {
   starterMenu: ["chelsea", "arsenal", "barcelona"],
   mainMenu: ["London", "Paris", "Madrid"],
 };
-const arr = [2, 3, 4];
-const [x, y, z] = arr;
-console.log(x, y, z);
-console.log(gettingAge(1798));
+// const arr = [2, 3, 4];
+// const [x, y, z] = arr;
+// console.log(x, y, z);
+// console.log(gettingAge(1798));
+
+let arr = ["a", "b", "c", "d", "e"];
+console.log(arr.slice(2));
+console.log(arr);
