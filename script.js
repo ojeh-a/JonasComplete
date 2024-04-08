@@ -280,3 +280,7 @@ const shop = {
 let arr = ["a", "b", "c", "d", "e"];
 console.log(arr.slice(2));
 console.log(arr);
+console.log(arr.slice(2, 4));
+//the end parameter is not included
+//negative takes from the end of the array
+console.log(arr.slice(0, -1));
