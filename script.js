@@ -284,3 +284,8 @@ console.log(arr.slice(2, 4));
 //the end parameter is not included
 //negative takes from the end of the array
 console.log(arr.slice(0, -1));
+
+//splice mutate the original array
+console.log(arr.splice(-1));
+
+console.log(arr);
