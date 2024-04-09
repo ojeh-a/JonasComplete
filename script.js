@@ -289,3 +289,7 @@ console.log(arr.slice(0, -1));
 console.log(arr.splice(-1));
 
 console.log(arr);
+const arr2 = [2, "t", 4, 6, "h"];
+console.log(arr2);
+console.log(arr2.reverse());
+console.log(arr2);
