@@ -299,3 +299,6 @@ console.log(arr2);
 const el = [...arr, ...arr2];
 console.log(arr.concat(arr2));
 console.log(el.join("+"));
+const arr3 = [3, 4, 5, 6, 7, 8, 9];
+console.log(arr3[1]);
+console.log(arr3.at(3));
