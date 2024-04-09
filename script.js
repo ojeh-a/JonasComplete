@@ -296,5 +296,6 @@ console.log(arr2);
 console.log(arr2.reverse());
 console.log(arr2);
 // concat
-console.log([...arr, ...arr2]);
+const el = [...arr, ...arr2];
 console.log(arr.concat(arr2));
+console.log(el.join("+"));
