@@ -304,3 +304,4 @@ console.log(arr3[1]);
 console.log(arr3.at(3));
 console.log(arr3[arr3.length - 1]);
 console.log(arr3.slice(-1)[0]);
+console.log(arr3.at(arr3.length / 2));
