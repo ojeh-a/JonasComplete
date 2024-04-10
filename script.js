@@ -306,6 +306,7 @@ console.log(arr3[arr3.length - 1]);
 console.log(arr3.slice(-1)[0]);
 console.log(arr3.at(arr3.length / 2));
 const movements = [200, 389, 123, -427, 748, 23, -342, -104];
+//FOR OF LOOP
 for (const movement of movements) {
   if (movement > 0) {
     console.log(`you deposited ${movement}`);
@@ -313,3 +314,7 @@ for (const movement of movements) {
     console.log(`You withdrew ${Math.abs(movement)}`);
   }
 }
+//FOREACH LOOP
+movements.forEach(function (el) {
+  console.log(el * 2);
+});
