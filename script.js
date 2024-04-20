@@ -318,3 +318,7 @@ for (const movement of movements) {
 movements.forEach(function (el) {
   console.log(el * 2);
 });
+
+const hello = 10;
+
+console.log(hello);
