@@ -213,112 +213,119 @@
 // console.log(getMiddleString("henry"));
 // console.log(getMiddleString("a"));
 // // console.log(getMiddleString(true));
-console.log("hello ");
-const calculateAverage = function (arr) {
-  let sum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    sum += arr[i];
-    // sum = sum + arr[i];
-  }
-  return sum / arr.length;
-};
-const numbers = [42, 34, 34, 33, 22, 1];
-console.log(calculateAverage([23, 24, 22]));
-console.log(calculateAverage(numbers));
-const num = Math.trunc(Math.random() * 40) + 1;
-console.log(num);
-const sumArray = function (arr) {
-  let sum = 0;
-  for (i = 0; i < arr.length; i++) {
-    sum += arr[i];
-  }
-  return sum;
-};
-console.log(sumArray([10, 30, 40, 45]));
 
-const btn1 = document.querySelector(".button-one");
-const btn2 = document.querySelector(".button-two");
-const btn3 = document.querySelector(".button-three");
-const images = document.querySelectorAll(".image--class");
+// console.log("hello ");
+// const calculateAverage = function (arr) {
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+//     // sum = sum + arr[i];
+//   }
+//   return sum / arr.length;
+// };
+// const numbers = [42, 34, 34, 33, 22, 1];
+// console.log(calculateAverage([23, 24, 22]));
+// console.log(calculateAverage(numbers));
+// const num = Math.trunc(Math.random() * 40) + 1;
+// console.log(num);
+// const sumArray = function (arr) {
+//   let sum = 0;
+//   for (i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+//   }
+//   return sum;
+// };
+// console.log(sumArray([10, 30, 40, 45]));
 
-const textElement = document.querySelector(".one");
+// const btn1 = document.querySelector(".button-one");
+// const btn2 = document.querySelector(".button-two");
+// const btn3 = document.querySelector(".button-three");
+// const images = document.querySelectorAll(".image--class");
 
-btn1.addEventListener("click", function () {
-  textElement.textContent = "Button One Clicked";
-  textElement.style.backgroundColor = "purple";
-  images.forEach((img, index) => img.classList.toggle("hidden", index !== 0));
-});
+// const textElement = document.querySelector(".one");
 
-btn2.addEventListener("click", function () {
-  textElement.textContent = "Button Two Clicked";
-  textElement.style.backgroundColor = "yellow";
-  images.forEach((img, index) => img.classList.toggle("hidden", index !== 1));
-});
+// btn1.addEventListener("click", function () {
+//   textElement.textContent = "Button One Clicked";
+//   textElement.style.backgroundColor = "purple";
+//   images.forEach((img, index) => img.classList.toggle("hidden", index !== 0));
+// });
 
-btn3.addEventListener("click", function () {
-  textElement.textContent = "Button Three Clicked";
-  textElement.style.backgroundColor = "red";
-  images.forEach((img, index) => img.classList.toggle("hidden", index !== 2));
-});
-function gettingAge(birthYear) {
-  const age = 2024 - birthYear;
-  return age;
+// btn2.addEventListener("click", function () {
+//   textElement.textContent = "Button Two Clicked";
+//   textElement.style.backgroundColor = "yellow";
+//   images.forEach((img, index) => img.classList.toggle("hidden", index !== 1));
+// });
+
+// btn3.addEventListener("click", function () {
+//   textElement.textContent = "Button Three Clicked";
+//   textElement.style.backgroundColor = "red";
+//   images.forEach((img, index) => img.classList.toggle("hidden", index !== 2));
+// });
+// function gettingAge(birthYear) {
+//   const age = 2024 - birthYear;
+//   return age;
+// }
+// console.log(gettingAge(1990));
+// const shop = {
+//   name: "Mr seun ",
+//   location: " 1 jobate, ori-okuta",
+//   categories: ["ball", "provision", "POS"],
+//   starterMenu: ["chelsea", "arsenal", "barcelona"],
+//   mainMenu: ["London", "Paris", "Madrid"],
+// };
+// // const arr = [2, 3, 4];
+// // const [x, y, z] = arr;
+// // console.log(x, y, z);
+// // console.log(gettingAge(1798));
+
+// let arr = ["a", "b", "c", "d", "e"];
+// console.log(arr.slice(2));
+// console.log(arr);
+// console.log(arr.slice(2, 4));
+// //the end parameter is not included
+// //negative takes from the end of the array
+// console.log(arr.slice(0, -1));
+
+// //splice mutate the original array
+// console.log(arr.splice(-1));
+
+// console.log(arr);
+
+// //reverse mutate the original array
+// const arr2 = [2, "t", 4, 6, "h"];
+// console.log(arr2);
+// console.log(arr2.reverse());
+// console.log(arr2);
+// // concat
+// const el = [...arr, ...arr2];
+// console.log(arr.concat(arr2));
+// console.log(el.join("+"));
+// const arr3 = [3, 4, 5, 6, 7, 8, 9, 36];
+// console.log(arr3[1]);
+// console.log(arr3.at(3));
+// console.log(arr3[arr3.length - 1]);
+// console.log(arr3.slice(-1)[0]);
+// console.log(arr3.at(arr3.length / 2));
+// const movements = [200, 389, 123, -427, 748, 23, -342, -104];
+// //FOR OF LOOP
+// for (const movement of movements) {
+//   if (movement > 0) {
+//     console.log(`you deposited ${movement}`);
+//   } else {
+//     console.log(`You withdrew ${Math.abs(movement)}`);
+//   }
+// }
+// //FOREACH LOOP
+// movements.forEach(function (el) {
+//   console.log(el * 2);
+// });
+
+const hello = 17;
+
+if (hello < 17) {
+  console.log("Pounded yam");
+} else if (hello > 17) {
+  console.log("Pizza");
+} else {
+  console.log("Eba");
 }
-console.log(gettingAge(1990));
-const shop = {
-  name: "Mr seun ",
-  location: " 1 jobate, ori-okuta",
-  categories: ["ball", "provision", "POS"],
-  starterMenu: ["chelsea", "arsenal", "barcelona"],
-  mainMenu: ["London", "Paris", "Madrid"],
-};
-// const arr = [2, 3, 4];
-// const [x, y, z] = arr;
-// console.log(x, y, z);
-// console.log(gettingAge(1798));
-
-let arr = ["a", "b", "c", "d", "e"];
-console.log(arr.slice(2));
-console.log(arr);
-console.log(arr.slice(2, 4));
-//the end parameter is not included
-//negative takes from the end of the array
-console.log(arr.slice(0, -1));
-
-//splice mutate the original array
-console.log(arr.splice(-1));
-
-console.log(arr);
-
-//reverse mutate the original array
-const arr2 = [2, "t", 4, 6, "h"];
-console.log(arr2);
-console.log(arr2.reverse());
-console.log(arr2);
-// concat
-const el = [...arr, ...arr2];
-console.log(arr.concat(arr2));
-console.log(el.join("+"));
-const arr3 = [3, 4, 5, 6, 7, 8, 9, 36];
-console.log(arr3[1]);
-console.log(arr3.at(3));
-console.log(arr3[arr3.length - 1]);
-console.log(arr3.slice(-1)[0]);
-console.log(arr3.at(arr3.length / 2));
-const movements = [200, 389, 123, -427, 748, 23, -342, -104];
-//FOR OF LOOP
-for (const movement of movements) {
-  if (movement > 0) {
-    console.log(`you deposited ${movement}`);
-  } else {
-    console.log(`You withdrew ${Math.abs(movement)}`);
-  }
-}
-//FOREACH LOOP
-movements.forEach(function (el) {
-  console.log(el * 2);
-});
-
-const hello = 10;
-
-console.log(hello);
