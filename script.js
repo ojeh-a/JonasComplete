@@ -321,11 +321,16 @@
 // });
 
 const hello = 17;
+// =
+// ==
+// ===
 
-if (hello < 17) {
-  console.log("Pounded yam");
-} else if (hello > 17) {
-  console.log("Pizza");
+const color = 14;
+
+if (color === 14) {
+  console.log("red");
+} else if (color > 14) {
+  console.log("green");
 } else {
-  console.log("Eba");
+  console.log("yellow");
 }
