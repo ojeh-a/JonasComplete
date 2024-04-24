@@ -336,6 +336,7 @@ if (color === 14) {
 }
 
 const executives = ["Coach", "Temitope", "Seun", "Captain"];
+
 executives.push("Boaz");
 console.log(executives);
 executives.shift();
