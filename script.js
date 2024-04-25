@@ -334,3 +334,5 @@ if (color === 14) {
 } else {
   console.log("yellow");
 }
+
+const executives = ["Coach", "Temitope", "Seun", "Captain"];
