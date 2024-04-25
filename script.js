@@ -334,9 +334,3 @@ if (color === 14) {
 } else {
   console.log("yellow");
 }
-
-const executives = ["Coach", "Temitope", "Seun", "Captain"];
-executives.push("Boaz");
-console.log(executives);
-executives.shift();
-console.log(executives);
