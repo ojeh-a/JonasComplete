@@ -334,3 +334,4 @@ if (color === 14) {
 } else {
   console.log("yellow");
 }
+console.log("hello");
