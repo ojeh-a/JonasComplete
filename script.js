@@ -346,3 +346,4 @@ console.log(executives.shift());
 console.log(executives);
 executives.unshift("Funmi");
 console.log(executives);
+console.log(executives.indexOf("Funmi"));
