@@ -354,3 +354,6 @@ console.log(executives);
 // console.log(executives.splice(1, 3));
 // console.log(executives);
 console.log(executives.reverse());
+const eplteams = ["chelsea", "arsenal", "barcelona"];
+
+console.log(executives.concat(eplteams));
