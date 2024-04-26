@@ -335,3 +335,14 @@ if (color === 14) {
   console.log("yellow");
 }
 console.log("hello");
+const executives = ["Coach", "Kazuki", "Temitope", "Boaz"];
+executives.push("Ade");
+console.log(executives);
+console.log(executives.length);
+console.log(executives.pop());
+console.log(executives);
+console.log(executives.length);
+console.log(executives.shift());
+console.log(executives);
+executives.unshift("Funmi");
+console.log(executives);
