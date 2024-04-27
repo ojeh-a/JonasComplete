@@ -332,3 +332,16 @@ console.log(states);
 console.log(states.length);
 console.log(states.length - 1);
 console.log(states[states.length - 1]);
+
+//push
+console.log(states.push("Kwara"));
+console.log(states);
+//unshift
+console.log(states.unshift("Kano"));
+console.log(states);
+//pop
+console.log(states.pop());
+//shift
+console.log(states.shift());
+console.log(states);
+//indexOf
