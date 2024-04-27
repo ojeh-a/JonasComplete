@@ -345,3 +345,7 @@ console.log(states.pop());
 console.log(states.shift());
 console.log(states);
 //indexOf
+console.log(states.indexOf("Taraba"));
+//includes
+console.log(states.includes("Abia"));
+console.log(states.reverse());
