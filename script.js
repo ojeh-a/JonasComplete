@@ -324,36 +324,3 @@ const hello = 17;
 // =
 // ==
 // ===
-
-const color = 14;
-
-if (color === 14) {
-  console.log("red");
-} else if (color > 14) {
-  console.log("green");
-} else {
-  console.log("yellow");
-}
-console.log("hello");
-const executives = ["Coach", "Kazuki", "Temitope", "Boaz"];
-executives.push("Ade");
-console.log(executives);
-console.log(executives.length);
-console.log(executives.pop());
-console.log(executives);
-console.log(executives.length);
-console.log(executives.shift());
-console.log(executives);
-executives.unshift("Funmi");
-console.log(executives);
-console.log(executives.indexOf("Funmi"));
-console.log(executives.includes("Kazuki"));
-console.log(executives.slice(1, 3));
-console.log(executives.slice(1));
-console.log(executives);
-// console.log(executives.splice(1, 3));
-// console.log(executives);
-console.log(executives.reverse());
-const eplteams = ["chelsea", "arsenal", "barcelona"];
-
-console.log(executives.concat(eplteams));
