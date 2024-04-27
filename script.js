@@ -324,3 +324,11 @@ const hello = 17;
 // =
 // ==
 // ===
+//ARRAY
+
+const states = ["Lagos", "ogun", "kaduna", "Taraba"];
+console.log(states);
+
+console.log(states.length);
+console.log(states.length - 1);
+console.log(states[states.length - 1]);
