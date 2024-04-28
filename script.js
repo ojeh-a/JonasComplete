@@ -352,5 +352,11 @@ console.log(states.includes("Abia"));
 //slice
 console.log(states.slice(1, 3));
 console.log(states);
-console.log(states.splice(1, 3));
+//splice
+// console.log(states.splice(1, 3));
 console.log(states);
+
+//concat
+
+const countries = ["china", "GBR", "Kuwait"];
+console.log(states.concat(countries));
