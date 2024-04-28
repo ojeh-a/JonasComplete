@@ -360,3 +360,10 @@ console.log(states);
 
 const countries = ["china", "GBR", "Kuwait"];
 console.log(states.concat(countries));
+const majorZones = [
+  ["solid rock", "jesus link"],
+  ["zion", "jesus house", "showers of blessing"],
+];
+const newMajor = majorZones.flat();
+console.log(newMajor);
+console.log(majorZones);
