@@ -352,12 +352,22 @@ clubs.shift();
 console.log(clubs);
 
 // //indexOf
-
+console.log(clubs.indexOf("Arsenal"));
 // //includes
-
+console.log(clubs.includes("arsenal"));
 // reverse
+console.log(clubs.reverse());
+console.log(clubs.indexOf("Arsenal"));
+
 // //slice
+console.log(clubs.slice(1, 3));
+console.log(clubs);
 
 // //splice
+// console.log(clubs.splice(1, 3));
+// console.log(clubs);
 
 // //concat
+const cities = ["London", "Lagos", "Manchester"];
+const concated = clubs.concat(cities);
+console.log(concated);
