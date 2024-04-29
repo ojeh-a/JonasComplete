@@ -333,14 +333,23 @@ console.log(states.length);
 console.log(states[3]);
 console.log(states.length - 1);
 console.log(states[states.length - 1]);
+const clubs = ["Madrid", "City", "Chelsea", "Arsenal"];
+console.log(clubs);
 
 // //push
-
+clubs.push("Eyimba");
+console.log(clubs);
 // //unshift
+clubs.unshift("Everton");
+console.log(clubs);
 
 // //pop
+clubs.pop();
+console.log(clubs);
 
 // //shift
+clubs.shift();
+console.log(clubs);
 
 // //indexOf
 
