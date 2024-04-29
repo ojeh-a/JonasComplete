@@ -324,46 +324,31 @@ const hello = 17;
 // =
 // ==
 // ===
-//ARRAY
+// ARRAY;
 
 const states = ["Lagos", "ogun", "kaduna", "Taraba"];
 console.log(states);
 
 console.log(states.length);
+console.log(states[3]);
 console.log(states.length - 1);
 console.log(states[states.length - 1]);
 
-//push
-console.log(states.push("Kwara"));
-console.log(states);
-//unshift
-console.log(states.unshift("Kano"));
-console.log(states);
-//pop
-console.log(states.pop());
-//shift
-console.log(states.shift());
-console.log(states);
-//indexOf
-console.log(states.indexOf("Taraba"));
-//includes
-console.log(states.includes("Abia"));
-// console.log(states.reverse());
-//slice
-console.log(states.slice(1, 3));
-console.log(states);
-//splice
-// console.log(states.splice(1, 3));
-console.log(states);
+// //push
 
-//concat
+// //unshift
 
-const countries = ["china", "GBR", "Kuwait"];
-console.log(states.concat(countries));
-const majorZones = [
-  ["solid rock", "jesus link"],
-  ["zion", "jesus house", "showers of blessing"],
-];
-const newMajor = majorZones.flat();
-console.log(newMajor);
-console.log(majorZones);
+// //pop
+
+// //shift
+
+// //indexOf
+
+// //includes
+
+// reverse
+// //slice
+
+// //splice
+
+// //concat
