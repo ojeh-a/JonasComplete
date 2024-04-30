@@ -378,4 +378,9 @@ const countries = [
 console.log(countries);
 console.log(countries.flat());
 console.log(countries);
-console.log(cities.pop);
+console.log(cities.pop());
+console.log(
+  cities.map((el) => {
+    el.toUpperCase();
+  })
+);
