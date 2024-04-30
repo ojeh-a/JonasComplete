@@ -371,3 +371,11 @@ console.log(clubs);
 const cities = ["London", "Lagos", "Manchester"];
 const concated = clubs.concat(cities);
 console.log(concated);
+const countries = [
+  ["Nigeria", "Ghana", "Senegal"],
+  ["England", "Ireland", "Spain"],
+];
+console.log(countries);
+console.log(countries.flat());
+console.log(countries);
+console.log(cities.pop);
