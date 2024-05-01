@@ -387,5 +387,8 @@ console.log(
 );
 const acities = ["London", "Lagos", "Manchester"];
 const b = acities;
+console.log(b);
+console.log(acities);
 acities.push("hello");
 console.log(b.length);
+console.log(acities.length);
