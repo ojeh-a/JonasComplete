@@ -385,3 +385,7 @@ console.log(
     return el.toUpperCase();
   })
 );
+const acities = ["London", "Lagos", "Manchester"];
+const b = acities;
+acities.push("hello");
+console.log(b.length);
