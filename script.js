@@ -392,3 +392,13 @@ console.log(acities);
 acities.push("hello");
 console.log(b.length);
 console.log(acities.length);
+
+let arr1 = [1, 2, 3];
+let arr2 = arr1;
+arr2.push(4);
+console.log(arr1.length + arr2.length);
+
+const x = [];
+x[10] = 10;
+const y = x.filter(() => true);
+console.log(y);
