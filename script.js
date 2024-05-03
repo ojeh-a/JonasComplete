@@ -394,6 +394,8 @@ console.log(b.length);
 console.log(acities.length);
 const scores = [33, 45, 55, 66, 23, 5, 6];
 
-scores.map(function (score) {
+const newScore = scores.map(function (score) {
   return score * 10;
 });
+console.log(scores);
+console.log(newScore);
