@@ -392,3 +392,11 @@ console.log(acities);
 acities.push("hello");
 console.log(b.length);
 console.log(acities.length);
+
+const scores = [10, 22, 33, 44, 55, 66, 77, 88, 99];
+
+const kk = scores.map((score) => score * 3);
+console.log(scores);
+console.log(kk);
+const mod = scores.map((x) => x % 2);
+console.log(mod);
