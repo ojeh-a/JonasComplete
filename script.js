@@ -392,3 +392,6 @@ console.log(acities);
 acities.push("hello");
 console.log(b.length);
 console.log(acities.length);
+const scores = [33, 45, 55, 66, 23, 5, 6];
+const yyy = scores.map((score) => score * 2);
+console.log(lll);
