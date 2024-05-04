@@ -392,10 +392,3 @@ console.log(acities);
 acities.push("hello");
 console.log(b.length);
 console.log(acities.length);
-const scores = [33, 45, 55, 66, 23, 5, 6];
-
-const newScore = scores.map(function (score) {
-  return score * 10;
-});
-console.log(scores);
-console.log(newScore);
