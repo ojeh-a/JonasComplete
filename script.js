@@ -402,4 +402,3 @@ const mod = scores.map((x) => x % 2);
 console.log(mod);
 const filta = scores.filter((cal) => cal > 50);
 console.log(filta);
-console.log(scores.reduce());
