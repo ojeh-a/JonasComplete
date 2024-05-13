@@ -408,3 +408,9 @@
 
 const { 0: a } = [30, 40, 50, 60, 70, 80];
 console.log(a);
+
+function abc() {
+  console.log("Hiiii");
+}
+const value = new abc();
+console.log(value);
