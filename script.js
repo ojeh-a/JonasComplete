@@ -1,4 +1,4 @@
-// // "use strict";
+"use strict";
 
 // // function makeJuice(a, b) {
 // //   const juice = `hello ${a} and ${b}`;
@@ -419,4 +419,7 @@ console.log(value);
   let d = 2;
   console.log(d);
 }
+const d = 34;
 console.log(d);
+console.log(g);
+var g = 99;
