@@ -414,3 +414,9 @@ function abc() {
 }
 const value = new abc();
 console.log(value);
+
+{
+  let d = 2;
+  console.log(d);
+}
+console.log(d);
