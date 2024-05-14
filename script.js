@@ -425,11 +425,11 @@ console.log(g);
 var g = 99;
 
 function displayTime() {
-  var d = new Date();
-  var hour = d.getHours();
-  var min = d.getMinutes();
-  var sec = d.getSeconds();
-  var amOrPm = "AM";
+  const d = new Date();
+  let hour = d.getHours();
+  let min = d.getMinutes();
+  let sec = d.getSeconds();
+  const amOrPm = "AM";
 
   if (hour < 10) hour = "0" + hour;
   if (sec < 10) {
@@ -440,6 +440,6 @@ function displayTime() {
   if (hour > 12) amOrPm = "PM";
   if (hour > 12) hour -= 12;
   document.getElementById("clock").innerHTML =
-    hour + ":" + min + ":" + sec + amOrPm;
+    hour + ":" + min + ":" + sec + " " + amOrPm;
 }
 setInterval(displayTime, 1000);
