@@ -438,6 +438,7 @@ function displayTime() {
   if (min < 10) min = "0" + min;
 
   if (hour > 12) amOrPm = "PM";
+  if (hour > 12) hour -= 12;
   document.getElementById("clock").innerHTML =
     hour + ":" + min + ":" + sec + amOrPm;
 }
