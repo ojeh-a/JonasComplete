@@ -13,3 +13,12 @@
 .hidden {
   display: none;
 }
+#clock {
+  color: green;
+  background-color: rgb(144, 117, 117);
+  width: 60%;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
