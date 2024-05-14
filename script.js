@@ -436,6 +436,9 @@ function displayTime() {
     sec = "0" + sec;
   }
   if (min < 10) min = "0" + min;
-  document.getElementById("clock").innerHTML = hour + ":" + min + ":" + sec;
+
+  if (hour > 12) amOrPm = "PM";
+  document.getElementById("clock").innerHTML =
+    hour + ":" + min + ":" + sec + amOrPm;
 }
 setInterval(displayTime, 1000);
