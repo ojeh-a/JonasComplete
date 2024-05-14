@@ -443,3 +443,9 @@ function displayTime() {
     hour + ":" + min + ":" + sec + " " + amOrPm;
 }
 setInterval(displayTime, 1000);
+var x = 20;
+function foo() {
+  console.log(x);
+  var x = 10;
+}
+foo();
