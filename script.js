@@ -449,3 +449,9 @@ function foo() {
   var x = 10;
 }
 foo();
+
+console.log("start");
+setInterval(() => {
+  console.log("TimeOut");
+}, 20000);
+console.log("the End");
