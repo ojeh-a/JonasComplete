@@ -478,3 +478,8 @@ fruitArray.map((x) => {
   rwa.unshift(x);
 });
 console.log("rwa", rwa);
+const rwfl = [];
+for (let i = fruitArray.length - 1; i >= 0; i--) {
+  rwfl.push(fruitArray[i]);
+}
+console.log("rwfl", rwfl);
