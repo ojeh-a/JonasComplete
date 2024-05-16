@@ -461,8 +461,8 @@ var tryo = 4;
 const fruitArray = ["apple", "banana", "orange", "grape", "pineapple"];
 // console.log("method 1", fruitArray.reverse());
 
-const reversedArray = [];
+let reversedArray = [];
 for (let i = fruitArray.length - 1; i >= 0; i--) {
   reversedArray.push(fruitArray[i]);
 }
-console.log("method 2", reversedArray);
+console.log(reversedArray);
