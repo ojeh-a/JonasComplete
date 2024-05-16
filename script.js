@@ -468,8 +468,13 @@ for (let i = numbers.length - 1; i >= 0; i--) {
 }
 console.log(reversedNumbers);
 
-const reverseWithMap = [];
-numbers.map((value) => {
-  reverseWithMap.unshift(value);
+// const reverseWithMap = [];
+// numbers.map((value) => {
+//   reverseWithMap.unshift(value);
+// });
+// console.log("reversed with map", reverseWithMap);
+const rwa = [];
+fruitArray.map((x) => {
+  rwa.unshift(x);
 });
-console.log("reversed with map", reverseWithMap);
+console.log("rwa", rwa);
