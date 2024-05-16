@@ -407,52 +407,54 @@
 // console.log("5" * 3);
 
 const { 0: a } = [30, 40, 50, 60, 70, 80];
-console.log(a);
+// console.log(a);
 
-function abc() {
-  console.log("Hiiii");
-}
-const value = new abc();
-console.log(value);
+// function abc() {
+//   console.log("Hiiii");
+// }
+// const value = new abc();
+// console.log(value);
 
-{
-  let d = 2;
-  console.log(d);
-}
-const d = 34;
-console.log(d);
-console.log(g);
-var g = 99;
+// {
+//   let d = 2;
+//   console.log(d);
+// }
+// const d = 34;
+// console.log(d);
+// console.log(g);
+// var g = 99;
 
-function displayTime() {
-  const d = new Date();
-  let hour = d.getHours();
-  let min = d.getMinutes();
-  let sec = d.getSeconds();
-  const amOrPm = "AM";
+// function displayTime() {
+//   const d = new Date();
+//   let hour = d.getHours();
+//   let min = d.getMinutes();
+//   let sec = d.getSeconds();
+//   const amOrPm = "AM";
 
-  if (hour < 10) hour = "0" + hour;
-  if (sec < 10) {
-    sec = "0" + sec;
-  }
-  if (min < 10) min = "0" + min;
+//   if (hour < 10) hour = "0" + hour;
+//   if (sec < 10) {
+//     sec = "0" + sec;
+//   }
+//   if (min < 10) min = "0" + min;
 
-  if (hour > 12) amOrPm = "PM";
-  if (hour > 12) hour -= 12;
-  document.getElementById("clock").innerHTML =
-    hour + ":" + min + ":" + sec + " " + amOrPm;
-}
-setInterval(displayTime, 1000);
-var x = 20;
-function foo() {
-  console.log(x);
-  var x = 10;
-}
-foo();
+//   if (hour > 12) amOrPm = "PM";
+//   if (hour > 12) hour -= 12;
+//   document.getElementById("clock").innerHTML =
+//     hour + ":" + min + ":" + sec + " " + amOrPm;
+// }
+// setInterval(displayTime, 1000);
+// var x = 20;
+// function foo() {
+//   console.log(x);
+//   var x = 10;
+// }
+// foo();
 
-console.log("start");
-setInterval(() => {
-  console.log("TimeOut");
-}, 90000);
-console.log("the End");
-console.log(1 == 1);
+// console.log("start");
+// setInterval(() => {
+//   console.log("TimeOut");
+// }, 90000);
+// console.log("the End");
+// console.log(1 == 1);
+console.log(tryo);
+var tryo = 4;
