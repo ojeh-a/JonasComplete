@@ -406,75 +406,80 @@
 // console.log("5" - 3);
 // console.log("5" * 3);
 
-const { 0: a } = [30, 40, 50, 60, 70, 80];
-// console.log(a);
+// const { 0: a } = [30, 40, 50, 60, 70, 80];
+// // console.log(a);
 
-// function abc() {
-//   console.log("Hiiii");
+// // function abc() {
+// //   console.log("Hiiii");
+// // }
+// // const value = new abc();
+// // console.log(value);
+
+// // {
+// //   let d = 2;
+// //   console.log(d);
+// // }
+// // const d = 34;
+// // console.log(d);
+// // console.log(g);
+// // var g = 99;
+
+// // function displayTime() {
+// //   const d = new Date();
+// //   let hour = d.getHours();
+// //   let min = d.getMinutes();
+// //   let sec = d.getSeconds();
+// //   const amOrPm = "AM";
+
+// //   if (hour < 10) hour = "0" + hour;
+// //   if (sec < 10) {
+// //     sec = "0" + sec;
+// //   }
+// //   if (min < 10) min = "0" + min;
+
+// //   if (hour > 12) amOrPm = "PM";
+// //   if (hour > 12) hour -= 12;
+// //   document.getElementById("clock").innerHTML =
+// //     hour + ":" + min + ":" + sec + " " + amOrPm;
+// // }
+// // setInterval(displayTime, 1000);
+// // var x = 20;
+// // function foo() {
+// //   console.log(x);
+// //   var x = 10;
+// // }
+// // foo();
+
+// // console.log("start");
+// // setInterval(() => {
+// //   console.log("TimeOut");
+// // }, 90000);
+// // console.log("the End");
+// // console.log(1 == 1);
+// console.log(tryo);
+// var tryo = 4;
+// const fruitArray = ["apple", "banana", "orange", "grape", "pineapple"];
+// // console.log("method 1", fruitArray.reverse());
+
+// const numbers = [2, 23, 234, 2345, 23456];
+// const reversedNumbers = [];
+// for (let i = numbers.length - 1; i >= 0; i--) {
+//   reversedNumbers.push(numbers[i]);
 // }
-// const value = new abc();
-// console.log(value);
+// console.log(reversedNumbers);
 
-// {
-//   let d = 2;
-//   console.log(d);
+// const rwa = [];
+// fruitArray.map((x) => {
+//   rwa.unshift(x);
+// });
+// console.log("rwa", rwa);
+// const rwfl = [];
+// for (let i = fruitArray.length - 1; i >= 0; i--) {
+//   rwfl.push(fruitArray[i]);
 // }
-// const d = 34;
-// console.log(d);
-// console.log(g);
-// var g = 99;
+// console.log("rwfl", rwfl);
+console.log("hello");
 
-// function displayTime() {
-//   const d = new Date();
-//   let hour = d.getHours();
-//   let min = d.getMinutes();
-//   let sec = d.getSeconds();
-//   const amOrPm = "AM";
-
-//   if (hour < 10) hour = "0" + hour;
-//   if (sec < 10) {
-//     sec = "0" + sec;
-//   }
-//   if (min < 10) min = "0" + min;
-
-//   if (hour > 12) amOrPm = "PM";
-//   if (hour > 12) hour -= 12;
-//   document.getElementById("clock").innerHTML =
-//     hour + ":" + min + ":" + sec + " " + amOrPm;
-// }
-// setInterval(displayTime, 1000);
-// var x = 20;
-// function foo() {
-//   console.log(x);
-//   var x = 10;
-// }
-// foo();
-
-// console.log("start");
-// setInterval(() => {
-//   console.log("TimeOut");
-// }, 90000);
-// console.log("the End");
-// console.log(1 == 1);
-console.log(tryo);
-var tryo = 4;
-const fruitArray = ["apple", "banana", "orange", "grape", "pineapple"];
-// console.log("method 1", fruitArray.reverse());
-
-const numbers = [2, 23, 234, 2345, 23456];
-const reversedNumbers = [];
-for (let i = numbers.length - 1; i >= 0; i--) {
-  reversedNumbers.push(numbers[i]);
-}
-console.log(reversedNumbers);
-
-const rwa = [];
-fruitArray.map((x) => {
-  rwa.unshift(x);
-});
-console.log("rwa", rwa);
-const rwfl = [];
-for (let i = fruitArray.length - 1; i >= 0; i--) {
-  rwfl.push(fruitArray[i]);
-}
-console.log("rwfl", rwfl);
+const arr = [1, 2, 3, 4, 5];
+console.log(arr);
+console.log(arr.reverse());
