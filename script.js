@@ -478,19 +478,20 @@
 //   rwfl.push(fruitArray[i]);
 // }
 // console.log("rwfl", rwfl);
-console.log("hello");
+// console.log("hello");
 
-const arr = [1, 2, 3, 4, 5];
-console.log(arr);
+// const arr = [1, 2, 3, 4, 5];
+// console.log(arr);
 // console.log(arr.reverse());
 const arrarr = [1, 2, 3, 4, 5];
+console.log(arrarr);
 let newRe = [];
 for (let i = arrarr.length - 1; i >= 0; i--) {
   newRe.push(arrarr[i]);
 }
+console.log(newRe);
 let place = [];
 let newPlace;
-// console.log(newRe);
 arrarr.map((x) => {
   place.push(x + 10);
   newPlace = place.reverse();
