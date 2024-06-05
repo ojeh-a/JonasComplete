@@ -483,21 +483,3 @@ console.log("hello");
 const arr = [1, 2, 3, 4, 5];
 console.log(arr);
 console.log(arr.reverse());
-
-let promise = new Promise((resolve, reject) => {
-  let success = true; // Simulate an operation that can succeed or fail
-
-  if (success) {
-    resolve("Operation was successful!");
-  } else {
-    reject("Operation failed.");
-  }
-});
-
-promise
-  .then((message) => {
-    console.log(message); // Output: Operation was successful!
-  })
-  .catch((error) => {
-    console.error(error);
-  });
