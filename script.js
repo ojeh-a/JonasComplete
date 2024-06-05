@@ -488,4 +488,12 @@ let newRe = [];
 for (let i = arrarr.length - 1; i >= 0; i--) {
   newRe.push(arrarr[i]);
 }
-console.log(newRe);
+let place = [];
+let newPlace;
+// console.log(newRe);
+arrarr.map((x) => {
+  place.push(x + 10);
+  newPlace = place.reverse();
+});
+console.log(place);
+console.log(newPlace);
