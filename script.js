@@ -482,10 +482,10 @@ console.log("hello");
 
 const arr = [1, 2, 3, 4, 5];
 console.log(arr);
-console.log(arr.reverse());
+// console.log(arr.reverse());
 const arrarr = [1, 2, 3, 4, 5];
 let newRe = [];
 for (let i = arrarr.length - 1; i >= 0; i--) {
-  newRe = arrarr.push([i]);
+  newRe.push(arrarr[i]);
 }
 console.log(newRe);
