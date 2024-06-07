@@ -483,18 +483,31 @@
 // const arr = [1, 2, 3, 4, 5];
 // console.log(arr);
 // console.log(arr.reverse());
-const arrarr = [1, 2, 3, 4, 5];
-console.log(arrarr);
-let newRe = [];
-for (let i = arrarr.length - 1; i >= 0; i--) {
-  newRe.push(arrarr[i]);
+// const arrarr = [1, 2, 3, 4, 5];
+// console.log(arrarr);
+// let newRe = [];
+// for (let i = arrarr.length - 1; i >= 0; i--) {
+//   newRe.push(arrarr[i]);
+// }
+// console.log(newRe);
+// let place = [];
+// let newPlace;
+// arrarr.map((x) => {
+//   place.push(x + 10);
+//   newPlace = place.reverse();
+// });
+// console.log(place);
+// console.log(newPlace);
+
+let call = 10;
+one();
+two();
+console.log(call);
+function one() {
+  let call = 60;
+  console.log(call);
 }
-console.log(newRe);
-let place = [];
-let newPlace;
-arrarr.map((x) => {
-  place.push(x + 10);
-  newPlace = place.reverse();
-});
-console.log(place);
-console.log(newPlace);
+function two() {
+  let call = 600;
+  console.log(call);
+}
