@@ -521,3 +521,7 @@ let total2 = 500 + 100 / 5 + total--;
 console.log(total2);
 console.log(total2++);
 console.log(total2);
+let myThing = true;
+let myThingBol = !!myThing ? true : false;
+
+console.log(myThingBol);
