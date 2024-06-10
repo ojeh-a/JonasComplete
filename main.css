@@ -14,8 +14,8 @@
   display: none;
 }
 #clock {
-  color: green;
-  background-color: rgb(144, 117, 117);
+  color: rgb(38, 203, 38);
+  background-color: rgb(156, 87, 87);
   width: 70%;
   font-weight: 300;
   font-size: 3rem;
