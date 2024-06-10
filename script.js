@@ -498,30 +498,3 @@
 // });
 // console.log(place);
 // console.log(newPlace);
-
-let call = 10;
-one();
-two();
-console.log(call);
-function one() {
-  let call = 60;
-  console.log(call);
-}
-function two() {
-  let call = 600;
-  console.log(call);
-}
-let firstNum = 5;
-let secondNum = 10;
-firstNum++;
-secondNum--;
-let total = ++firstNum + secondNum;
-console.log(total);
-let total2 = 500 + 100 / 5 + total--;
-console.log(total2);
-console.log(total2++);
-console.log(total2);
-let myThing = true;
-let myThingBol = !!myThing ? true : false;
-
-console.log(myThingBol);
