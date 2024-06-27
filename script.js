@@ -25,3 +25,7 @@ function y() {
   console.log("y");
 }
 x(y);
+
+document.getElementById("clickMe").addEventListener("click", function () {
+  console.log("hello");
+});
