@@ -12,3 +12,16 @@ let d = function (param1, param2) {
 };
 d(6, 12);
 ade();
+
+setTimeout(function () {
+  console.log("after 5 seconds");
+}, 5000);
+
+function x() {
+  console.log("x");
+  y();
+}
+function y() {
+  console.log("y");
+}
+x(y);
