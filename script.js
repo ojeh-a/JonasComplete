@@ -2,9 +2,11 @@
 function a() {
   console.log("we are good");
 }
-let ade = function () {
+let ade = function ben() {
   console.log("function expression");
 };
-function (){
-    console.log('it will throw syntax error')
-}
+let d = function () {
+  console.log("it will throw syntax error");
+};
+d();
+ade();
