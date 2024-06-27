@@ -5,8 +5,8 @@ function a() {
 let ade = function ben() {
   console.log("function expression");
 };
-let d = function () {
-  console.log("it will throw syntax error");
+let d = function (param1, param2) {
+  console.log(`it will throw syntax error ${param1} times`);
 };
-d();
+d(6);
 ade();
