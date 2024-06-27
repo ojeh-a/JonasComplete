@@ -5,3 +5,6 @@ function a() {
 let ade = function () {
   console.log("function expression");
 };
+function (){
+    console.log('it will throw syntax error')
+}
