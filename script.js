@@ -26,6 +26,10 @@ function y() {
 }
 x(y);
 
-document.getElementById("clickMe").addEventListener("click", function () {
-  console.log("hello");
-});
+function closurePractice() {
+  let count = 0;
+  document.getElementById("clickMe").addEventListener("click", function () {
+    console.log("hello ", ++count);
+  });
+}
+closurePractice();
