@@ -30,6 +30,7 @@ function closurePractice() {
   let count = 0;
   document.getElementById("clickMe").addEventListener("click", function () {
     console.log("hello ", ++count);
+    document.getElementById("clock").innerHTML = "I am now count";
   });
 }
 closurePractice();
