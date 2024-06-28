@@ -30,7 +30,12 @@ function closurePractice() {
   let count = 0;
   document.getElementById("clickMe").addEventListener("click", function () {
     console.log("hello ", ++count);
-    document.getElementById("clock").innerHTML = "I am now count";
+    document.getElementById(
+      "clock"
+    ).innerHTML = `Button clicked ${count} times`;
   });
 }
 closurePractice();
+let arr1 = [5, 8, 4, 1, 3, 0];
+console.log(arr1);
+console.log(arr1.reverse());
