@@ -26,16 +26,28 @@ function y() {
 }
 x(y);
 
-function closurePractice() {
+document.addEventListener("DOMContentLoaded", function () {
   let count = 0;
-  document.getElementById("clickMe").addEventListener("click", function () {
-    document.getElementById(
-      "clock"
-    ).innerHTML = `Button clicked ${++count} times`;
-  });
-}
 
-closurePractice();
+  function closurePractice() {
+    document.getElementById("clickMe").addEventListener("click", function () {
+      document.getElementById(
+        "clock"
+      ).innerHTML = `Button clicked ${++count} times`;
+    });
+  }
+
+  function resetButtonFunction() {
+    document.getElementById("reset").addEventListener("click", () => {
+      count = 0;
+      document.getElementById("clock").innerHTML = `Reset Button Clicked`;
+    });
+  }
+
+  closurePractice();
+  resetButtonFunction();
+});
+
 let arr1 = [5, 8, 4, 1, 3, 0];
 console.log(arr1);
 console.log(arr1.reverse());
