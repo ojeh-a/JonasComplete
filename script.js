@@ -47,7 +47,3 @@ document.addEventListener("DOMContentLoaded", function () {
   closurePractice();
   resetButtonFunction();
 });
-
-let arr1 = [5, 8, 4, 1, 3, 0];
-console.log(arr1);
-console.log(arr1.reverse());
