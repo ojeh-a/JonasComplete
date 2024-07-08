@@ -1,2 +1,4 @@
 "use strict";
-document.getElementsById("btn").innerHTML = "yee";
+document.getElementById("btn").addEventListener("click", () => {
+  document.getElementsByClassName(".text").style.backgroundColor = "red";
+});
