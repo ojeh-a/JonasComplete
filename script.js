@@ -12,4 +12,5 @@ for (let i = 0; i < allItems.length; i++) {
   allItems[i].style.fontSize = "0.8rem";
   allItems[i].style.color = "powderblue";
   allItems[i].style.backgroundColor = "white";
+  allItems[i].style.border = "1px solid pink";
 }
