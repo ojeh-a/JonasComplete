@@ -9,8 +9,8 @@ head1.style.color = "red";
 
 const allItems = document.querySelectorAll(".list-item");
 for (let i = 0; i < allItems.length; i++) {
-  allItems[i].style.fontSize = "0.8rem";
-  allItems[i].style.color = "powderblue";
-  allItems[i].style.backgroundColor = "white";
-  allItems[i].style.border = "1px solid pink";
+  allItems[i].style.color = "green";
+  allItems[i].style.backgroundColor = "black";
+  allItems[i].style.border = "white 1px solid";
+  allItems[i].style.borderRadius = "7px";
 }
