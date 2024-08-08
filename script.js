@@ -1,6 +1,12 @@
 "use strict";
+
 document.getElementById("btn").addEventListener("click", () => {
-  document.querySelector(".text").style.backgroundColor = "red";
+  const textElement = document.querySelector(".text");
+  const currColour = textElement.style.backgroundColor;
+  textElement.style.backgroundColor = currColour === "red" ? "blue" : "red";
+
+  const currTextColor = textElement.style.color;
+  textElement.style.color = currTextColor === "white" ? "black" : "white";
 });
 const head1 = document.querySelector(".header");
 console.log(head1);

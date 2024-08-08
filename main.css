@@ -35,6 +35,9 @@
   border: 2px solid black;
   border-radius: 4px;
 }
+h2 {
+  height: 4rem;
+}
 h1 {
   text-align: center;
 }
