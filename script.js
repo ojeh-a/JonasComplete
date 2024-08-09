@@ -9,3 +9,16 @@ if (age >= 18) {
     Too young. 
     Wait for next ${underAge} years`);
 }
+let globalScope = "global";
+function funSco() {
+  let funScope = "funct";
+  if (funScope) {
+    let blcScop = "block";
+    console.log(globalScope);
+    console.log(blcScop);
+  }
+  console.log(funScope);
+}
+funSco();
+console.log(globalScope);
+// console.log(blcScop);
