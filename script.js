@@ -22,3 +22,6 @@ function funSco() {
 funSco();
 console.log(globalScope);
 // console.log(blcScop);
+
+console.log(hoist);
+var hoist = "hoisting";
