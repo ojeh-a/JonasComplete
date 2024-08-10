@@ -25,3 +25,8 @@ console.log(globalScope);
 
 console.log(hoist);
 var hoist = "hoisting";
+let count = 0;
+function handleIncrease() {
+  count++;
+  document.querySelector(".counter").innerText = count;
+}
