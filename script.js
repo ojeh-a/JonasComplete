@@ -30,3 +30,7 @@ function handleIncrease() {
   count++;
   document.querySelector(".counter").innerText = count;
 }
+function handleDecrease() {
+  --count;
+  document.querySelector(".counter").innerHTML = count;
+}
