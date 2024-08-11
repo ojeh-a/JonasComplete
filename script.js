@@ -38,3 +38,6 @@ function handleReset() {
   count = 0;
   document.querySelector(".counter").innerHTML = count;
 }
+let className = count > 0 ? "positive" : count < 0 ? "negative" : "counter";
+
+document.querySelector(".counter").className = className;
