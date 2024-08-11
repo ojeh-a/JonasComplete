@@ -27,10 +27,14 @@ console.log(hoist);
 var hoist = "hoisting";
 let count = 0;
 function handleIncrease() {
-  count++;
+  ++count;
   document.querySelector(".counter").innerText = count;
 }
 function handleDecrease() {
   --count;
+  document.querySelector(".counter").innerHTML = count;
+}
+function handleReset() {
+  count = 0;
   document.querySelector(".counter").innerHTML = count;
 }
