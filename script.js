@@ -66,3 +66,6 @@ console.log(even);
 
 const odd = arr.filter((x) => x % 2 === 1);
 console.log(odd);
+
+const squareOdd = odd.map((x) => x ** 2);
+console.log(squareOdd);
