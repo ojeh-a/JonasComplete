@@ -57,3 +57,12 @@ console.log(triple);
 
 const doubleArr = arr.map((x) => x * 2);
 console.log(doubleArr);
+
+const morethan5 = arr.filter((x) => x > 5);
+console.log(morethan5);
+
+const even = arr.filter((x) => x % 2 === 0);
+console.log(even);
+
+const odd = arr.filter((x) => x % 2 === 1);
+console.log(odd);
