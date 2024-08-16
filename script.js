@@ -23,8 +23,6 @@ funSco();
 console.log(globalScope);
 // console.log(blcScop);
 
-console.log(hoist);
-var hoist = "hoisting";
 let count = 0;
 function handleIncrease() {
   ++count;
@@ -41,3 +39,21 @@ function handleReset() {
 let className = count > 0 ? "positive" : count < 0 ? "negative" : "counter";
 
 document.querySelector(".counter").className = className;
+
+console.log(x);
+console.log(hoist);
+var x = 9;
+var hoist = () => {
+  let ans = a + b;
+  return ans;
+};
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+const binary = arr.map((x) => x.toString(2));
+console.log(binary);
+
+const triple = arr.map((x) => x * 3);
+console.log(triple);
+
+const doubleArr = arr.map((x) => x * 2);
+console.log(doubleArr);
