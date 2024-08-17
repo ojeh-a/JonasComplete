@@ -74,3 +74,14 @@ const yeild = 86;
 const someNumbers = [2, 3, 4, 1, 5];
 
 console.log(someNumbers.filter((x) => x > 4));
+
+const fruits = [
+  { name: "apple", color: "red" },
+  { name: "banana", color: "yellow" },
+  { name: "kiwi", color: "green" },
+  { name: "orange", color: "orange" },
+  { name: "pineapple", color: "yellow" },
+];
+
+const findYellowFruit = fruits.filter((fruit) => fruit.color === "yellow");
+console.log(findYellowFruit);
