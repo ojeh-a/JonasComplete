@@ -69,3 +69,5 @@ console.log(odd);
 
 const squareOdd = odd.map((x) => x ** 2);
 console.log(squareOdd);
+const yeild = 86;
+console.log(yeild.toString(2));
