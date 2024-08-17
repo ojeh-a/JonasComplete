@@ -70,4 +70,7 @@ console.log(odd);
 const squareOdd = odd.map((x) => x ** 2);
 console.log(squareOdd);
 const yeild = 86;
-console.log(yeild.toString(2));
+
+const someNumbers = [2, 3, 4, 1, 5];
+
+console.log(someNumbers.filter((x) => x > 4));
