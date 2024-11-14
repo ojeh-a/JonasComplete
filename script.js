@@ -85,3 +85,17 @@ const fruits = [
 
 const findYellowFruit = fruits.filter((fruit) => fruit.color === "yellow");
 console.log(findYellowFruit);
+
+function findLongestWord(sentence) {
+  const words = sentence.split(" ");
+  let longestWord = " ";
+  for (let word of words) {
+    if (word.length > longestWord.length) {
+      longestWord = word;
+    }
+  }
+  return longestWord;
+}
+
+const senten = "am a Coach";
+console.log(findLongestWord(senten));
