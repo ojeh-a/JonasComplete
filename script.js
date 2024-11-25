@@ -11,3 +11,7 @@ const maker = (sand, water) => {
   return man;
 };
 console.log(maker(20, 15));
+function mixer(a, b) {
+  return a + b;
+}
+mixer(10, 70);
