@@ -15,3 +15,18 @@ function mixer(a, b) {
   return a + b;
 }
 mixer(10, 70);
+
+const thisYear = 2024;
+const ageTolu = thisYear - 1990;
+console.log(ageTolu);
+console.log(typeof thisYear);
+let x = 20 * 5;
+x *= 2;
+console.log(x);
+let y = 40 + 20;
+y /= 2;
+console.log(y);
+let z = 50 * 4;
+z -= 50;
+
+console.log(z);
