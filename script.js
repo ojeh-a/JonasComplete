@@ -30,3 +30,12 @@ let z = 50 * 4;
 z -= 50;
 
 console.log(z);
+const age = 10;
+const isOldEnough = age >= 18;
+if (isOldEnough) {
+  console.log(`He is ${age}, so ,he can drive`);
+} else {
+  console.log(
+    `He is ${age}, so ,he cant drive yet..... Wait till ${18 - age} years time`
+  );
+}
