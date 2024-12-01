@@ -52,3 +52,11 @@ if (hasEye && hasLicense && knowRoad) {
 } else {
   console.log("Let another person drive");
 }
+
+const isNigerian = false;
+const isGhanian = false;
+if (isGhanian || isNigerian) {
+  console.log("He is African");
+} else {
+  console.log("we no sabi your papa");
+}
