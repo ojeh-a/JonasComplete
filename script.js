@@ -45,7 +45,7 @@ if (isOldEnough) {
 }
 
 const hasLicense = true;
-const hasEye = true;
+const hasEye = false;
 const knowRoad = true;
 if (hasEye && hasLicense && knowRoad) {
   console.log("Caleb can drive");
@@ -60,3 +60,11 @@ if (isGhanian || isNigerian) {
 } else {
   console.log("we no sabi your papa");
 }
+hasEye && knowRoad
+  ? console.log("hi")
+  : isGhanian
+  ? console.log("na Ghanian")
+  : console.log("whats up");
+const bill = 60;
+const tip = bill >= 200 && bill <= 600 ? bill * 0.1 : bill * 0.25;
+console.log(tip);
