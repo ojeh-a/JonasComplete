@@ -43,3 +43,12 @@ if (isOldEnough) {
 } else if (age > 75) {
   console.log(`baba is ${age},he cannot drive`);
 }
+
+const hasLicense = true;
+const hasEye = true;
+const knowRoad = true;
+if (hasEye && hasLicense && knowRoad) {
+  console.log("Caleb can drive");
+} else {
+  console.log("Let another person drive");
+}
