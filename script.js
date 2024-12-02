@@ -68,3 +68,4 @@ hasEye && knowRoad
 const bill = 60;
 const tip = bill >= 200 && bill <= 600 ? bill * 0.1 : bill * 0.25;
 console.log(tip);
+console.log(2 === "2");
