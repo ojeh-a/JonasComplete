@@ -76,8 +76,7 @@ console.log(5 % 2);
 let numb = 36;
 const numbD = (numb += 25);
 console.log(numbD);
-const a = 20;
-const b = 8;
-const c = a + b;
-console.log(c);
-const d = (a += b);
+
+for (let count = 15; count <= 20; count++) {
+  console.log(`This is count ${count}`);
+}
