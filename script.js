@@ -80,3 +80,13 @@ console.log(numbD);
 for (let count = 15; count <= 20; count++) {
   console.log(`This is count ${count}`);
 }
+
+const birthYear = [1990, 1987, 1984, 1996, 1998];
+const ages = [];
+for (let i = 0; i < birthYear.length; i++) {
+  const yearNow = 2024;
+  const age = yearNow - birthYear[i];
+  ages.push(age);
+}
+
+console.log(ages);
