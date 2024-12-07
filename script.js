@@ -90,3 +90,7 @@ for (let i = 0; i < birthYear.length; i++) {
 }
 
 console.log(ages);
+console.log(document.querySelector(".hello"));
+
+document.querySelector(".hello").innerText = "hiiiii";
+document.querySelector(".num").value = 30;
