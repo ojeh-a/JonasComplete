@@ -94,3 +94,6 @@ console.log(document.querySelector(".hello"));
 
 document.querySelector(".hello").innerText = "hiiiii";
 document.querySelector(".num").value = 30;
+document.querySelector(".click").addEventListener("click", function () {
+  document.querySelector(".num").value = 100000;
+});
