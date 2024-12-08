@@ -30,11 +30,5 @@
 }
 
 .bounce-image {
-  display: inline-block;
-  background-color: #4caf50;
-  border-radius: 5px;
-  text-align: center;
-  cursor: pointer;
-  animation: bounce 6s;
-  animation-duration: 10s;
+  display: block;
 }

@@ -92,8 +92,20 @@ for (let i = 0; i < birthYear.length; i++) {
 console.log(ages);
 console.log(document.querySelector(".hello"));
 
-document.querySelector(".hello").innerText = "hiiiii";
-document.querySelector(".num").value = 30;
+// document.querySelector(".hello").innerText = "hiiiii";
+const text = document.querySelector(".hello");
+const bounceImage = document.querySelector(".bounce-image");
 document.querySelector(".click").addEventListener("click", function () {
-  document.querySelector(".num").value = 100000;
+  console.log(document.querySelector(".num").value);
+  // document.querySelector(".hello").innerText =
+  //   "The Image is visible at the moment";
+
+  if (bounceImage.style.display === "none") {
+    bounceImage.style.display = "block";
+    text.innerHTML = "The Image is visible at the moment...... click to hide";
+  } else {
+    bounceImage.style.display = "none";
+    text.innerHTML =
+      "The Image is not visible at the moment........... click button to view";
+  }
 });
