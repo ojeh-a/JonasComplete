@@ -111,3 +111,6 @@ document.querySelector(".click").addEventListener("click", function () {
     text.style.backgroundColor = "red";
   }
 });
+let food = "yam";
+let drink = "water";
+console.log(`i love ${food} and ${drink}`);
