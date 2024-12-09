@@ -32,3 +32,10 @@
 .bounce-image {
   display: block;
 }
+button {
+  background-color: red;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+  font-size: 1.5rem;
+}

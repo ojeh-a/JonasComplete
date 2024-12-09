@@ -103,9 +103,11 @@ document.querySelector(".click").addEventListener("click", function () {
   if (bounceImage.style.display === "none") {
     bounceImage.style.display = "block";
     text.innerHTML = "The Image is visible at the moment...... click to hide";
+    text.style.backgroundColor = "green";
   } else {
     bounceImage.style.display = "none";
     text.innerHTML =
       "The Image is not visible at the moment........... click button to view";
+    text.style.backgroundColor = "red";
   }
 });
