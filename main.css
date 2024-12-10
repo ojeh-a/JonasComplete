@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   background-color: green;
   height: 2rem;
   bottom: 0;
@@ -38,4 +38,7 @@ button {
   color: white;
   padding: 4px 8px;
   font-size: 1.5rem;
+} */
+.javascript {
+  background-color: red;
 }
