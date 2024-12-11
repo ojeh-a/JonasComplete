@@ -40,17 +40,24 @@ if (age > 18) {
 console.log(age);
 
 let currentAge = 0;
-if (currentAge <= 14 || currentAge >= 65) {
-  console.log("drink water");
-} else if (currentAge > 14 && currentAge < 22) {
-  console.log("drink juice");
-} else if (currentAge > 21 && currentAge < 46) {
-  console.log("Drink alcohol");
-} else {
-  console.log("we no send you");
-}
+// if (currentAge <= 14 || currentAge >= 65) {
+//   console.log("drink water");
+// } else if (currentAge > 14 && currentAge < 22) {
+//   console.log("drink juice");
+// } else if (currentAge > 21 && currentAge < 46) {
+//   console.log("Drink alcohol");
+// } else {
+//   console.log("we no send you");
+// }
+currentAge <= 14 || currentAge >= 65
+  ? console.log("drink water")
+  : currentAge > 14 && currentAge < 22
+  ? console.log("drink juice")
+  : console.log("hello");
 
-let church = "rccg";
+church = "cms";
 church === "rccg"
   ? console.log("She is from redeem")
-  : console.log("She is not from rccg");
+  : church === "cac"
+  ? console.log("she is from cac")
+  : console.log("baga lizard");
