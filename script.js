@@ -17,11 +17,40 @@ console.log(
 );
 console.log(11 % 7);
 console.log(2 === "2");
-console.log(67 < 56);
-let canSee = false;
-let age = 18;
-if (age >= 18 || canSee) {
-  console.log("She is mature");
+
+let now = 2024;
+let yearOfBirth = 2006;
+let age = now - yearOfBirth;
+// let canDrive = age >= 18;
+if (age > 18) {
+  const validSince = age - 18;
+  console.log(
+    `She is ready to get her licence......... She's been ready since ${validSince} years ago `
+  );
+} else if (age === 18) {
+  console.log(
+    "Happy birthday ........She is ready to get her licence........."
+  );
 } else {
-  console.log("She is not mature");
+  const yearsRemain = 18 - age;
+  console.log(
+    `You're too young darling, wait for another ${yearsRemain} years`
+  );
 }
+console.log(age);
+
+let currentAge = 0;
+if (currentAge <= 14 || currentAge >= 65) {
+  console.log("drink water");
+} else if (currentAge > 14 && currentAge < 22) {
+  console.log("drink juice");
+} else if (currentAge > 21 && currentAge < 46) {
+  console.log("Drink alcohol");
+} else {
+  console.log("we no send you");
+}
+
+let church = "rccg";
+church === "rccg"
+  ? console.log("She is from redeem")
+  : console.log("She is not from rccg");
