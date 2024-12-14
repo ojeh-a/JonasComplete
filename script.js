@@ -115,11 +115,11 @@ if (hiddenNumber < 15) {
 const restaurant = {
   name: "Lindiwe Incorporation",
   location: "Lagos",
-  categories: ["teaching", "web-dev"],
+  categories: ["teaching", "web-dev", "drama", "wealth"],
 };
 
 const arr = [1, 2, 3];
 const [x, y, z] = arr;
 console.log(x, y, z);
-const { a, b, c } = restaurant;
+const [a, b, c] = restaurant.categories;
 console.log(a, b, c);
