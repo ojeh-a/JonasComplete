@@ -112,3 +112,14 @@ if (hiddenNumber < 15) {
 } else if (hiddenNumber > 15) {
   console.log("your guess is too high");
 }
+const restaurant = {
+  name: "Lindiwe Incorporation",
+  location: "Lagos",
+  categories: ["teaching", "web-dev"],
+};
+
+const arr = [1, 2, 3];
+const [x, y, z] = arr;
+console.log(x, y, z);
+const { a, b, c } = restaurant;
+console.log(a, b, c);
