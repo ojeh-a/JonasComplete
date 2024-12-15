@@ -131,3 +131,5 @@ for (const cat of cats) {
 for (let i = 0; i < cats.length - 1; i++) {
   console.log(cats[i]);
 }
+const capCat = cats.map((cat) => cat.toUpperCase());
+console.log(capCat);
