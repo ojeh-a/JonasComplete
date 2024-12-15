@@ -123,3 +123,11 @@ const [x, y, z] = arr;
 console.log(x, y, z);
 const [a, b, c] = restaurant.categories;
 console.log(a, b, c);
+const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+
+for (const cat of cats) {
+  console.log(cat);
+}
+for (let i = 0; i < cats.length - 1; i++) {
+  console.log(cats[i]);
+}
